@@ -23,11 +23,17 @@ int main(void)
 				for (num4 = num3; num4 <= 9; num4++)
 				{
 					putchar(num1 + 48);
+
 					putchar(num2 + 48);
+
 					putchar(' ');
+
 					putchar(num3 + 48);
+
                                         putchar(num4 + 48);
+
 					putchar(',');
+
 					putchar(' ');
 				}
 			}
