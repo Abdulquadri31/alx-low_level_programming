@@ -5,26 +5,24 @@
 /**
  * main - Entry point
  *
+ * Description: Prints all possible combinations of single-digit numbers
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int num1;
-	int num2;
+    int i;
 
-	for (num1 = 0; num1 <= 9; num1++)
-	{
-		for (num2 = 0; num2 <= 9; num2++)
-		{
-			putchar(num1 + 48);
-			putchar(',');
-			putchar(' ');
-			putchar(num2 + 48);
-			putchar(' ');
-		}
-	}
+    for (i = 0; i <= 9; i++)
+    {
+        putchar(i + '0');
 
-	putchar('\n');
+        if (i != 9)
+        {
+            putchar(',');
+            putchar(' ');
+        }
+    }
+    putchar('\n');
 
-	return (0);
+    return (0);
 }
