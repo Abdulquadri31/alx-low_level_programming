@@ -1,6 +1,6 @@
 
 
-#include <studio.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
@@ -9,15 +9,15 @@
  */
 int main(void)
 {
-        int c;
+	int c;
 
-        for (c = 'z'; c >= 'a'; c--)
-        {
-                putchar(c);
-        }
+	for (c = 'z'; c >= 'a'; c--)
+	{
+		putchar(c);
+	}
 
-        putchar('\n')
+	putchar('\n');
 
-        return (0);
+	return (0);
 }
 
