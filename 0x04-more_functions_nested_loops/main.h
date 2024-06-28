@@ -5,3 +5,4 @@ void print_square(int size);
 int _putchar(char c);
 
 #endif /* MAIN_H */
+void fizz_buzz(void);
