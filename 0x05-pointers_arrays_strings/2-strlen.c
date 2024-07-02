@@ -2,6 +2,7 @@
 
 /**
  * _strlen - returns the length
+ * @s: pointer to a string
  *
  * Return: length of the string
  */
